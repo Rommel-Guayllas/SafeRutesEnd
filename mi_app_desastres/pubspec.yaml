@@ -1,0 +1,49 @@
+name: mi_app_desastres
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Firebase, Geolocator, etc. (no conflictan)
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.1
+  cloud_firestore: ^5.6.2
+  provider: ^6.0.5
+  geolocator: ^13.0.2
+
+  # flutter_map 7.x
+  flutter_map: ^7.0.0
+
+  # El plugin para mostrar tu ubicación en flutter_map
+  flutter_map_location_marker: ^9.1.1
+
+  # Asegúrate de usar latlong2 >=0.10.0, por ejemplo:
+  latlong2: ^0.9.1
+
+  # location ^5.0.0 está bien, porque flutter_map_location_marker 9.x
+  # acepta location >=4.4.0 <5.0.0 O >=5.0.0 <6.0.0
+  location: ^5.0.0
+
+  # Otras dependencias
+  http: ^1.2.1
+  google_polyline_algorithm: ^3.1.0
+  flutter_osm_plugin: ^1.3.6
+  firebase_messaging: ^15.2.1
+  charts_flutter: ^0.12.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

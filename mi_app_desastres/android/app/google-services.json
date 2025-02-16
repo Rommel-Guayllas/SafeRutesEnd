@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126514775288",
+    "project_id": "appdesastresnaturales",
+    "storage_bucket": "appdesastresnaturales.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126514775288:android:664756c5f6abd3e4b2670d",
+        "android_client_info": {
+          "package_name": "com.example.mi_app_desastres"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJSI9tZiY-KOIsHU2m9UdzA-kK62iommI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
